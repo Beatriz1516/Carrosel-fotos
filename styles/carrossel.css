@@ -3,7 +3,7 @@
     height:auto;
     max-height:600px;
     object-fit: cover;
-    border: solid rgb(150, 150, 27);
+    border: solid rgb(22, 66, 209);
     border-radius: 15px;
 }
 
@@ -39,10 +39,11 @@
             .carousel-control-prev,
             .carousel-control-next{
                 width: 10%;
-                color: white;
+                color: #ffffff;
             }
             .carousel-control-prev{
                 left: -5%;
+                
             }
             .carousel-control-next{
                 right: -5%;
