@@ -5,10 +5,15 @@
 @import url("styles/footer.css");
 
 body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans Regular';
     display: block;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
+
+*{
+    font-family: 'Lucida Sans Regular';
+}
+
