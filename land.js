@@ -13,5 +13,16 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         method: 'POST',
         body: new URLSearchParams(data)
     })
-    
+    .then(response => response.json())
+    .then(responseData => {
+        if (responseData.result === 'success') {
+            alert ('Dados enviados com sucesso!');
+            event.target.reset();
+        } else if (responseData.result === 'error' && responseData.message ==='Email already exists' ) {
+            alert('Erro: O email já existe.');
+        } else {
+            alert('Erro ao enviar os dados.')
+        }
+    })
+    .catch(error => console.error('Error:' , error));
 });
