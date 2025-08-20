@@ -17,11 +17,13 @@ input, textarea{
     padding: 20px;
     border: solid 2px #ccc;
     border-radius: 10px;
+    color: rgb(52, 52, 71);
 }
 
 .titulo-formulario{
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
 #contactForm input,
@@ -70,4 +72,9 @@ input, textarea{
     color: #071137;
     text-decoration: underline;
     margin: 0;
+}
+
+.clausulas{
+    font-size:small;
+
 }

@@ -189,10 +189,48 @@
             <h2 class="titulo-formulario">Contate-nos </h2>
         <input type="text" name="name" placeholder="Seu nome completo" required> 
         <input type="email" name="email" placeholder="Seu email completo" required> 
-        <input type="number" name="telefone" placeholder="Seu telefone - opcional"> 
-        <input type="text" name="carro" placeholder="Carro escolhido" required> 
+        <input type="telefone" name="telefone" placeholder="Seu telefone somente números - opcional"> 
+
+        <div class="spacer"></div>
+
+        <label for="opcoes">Selecione uma opção de carro:</label>
+            <select id="opcoes" name="opcoes">
+                <option value="carros">Ford Mustang</option>
+                <option value="carros">Mercede Benz Classe A</option>
+                <option value="carros">Lamborghini Aventador pink</option>
+                <option value="carros">Chevrolet Tracker</option>
+                <option value="carros">Renault Kwid</option>
+                <option value="carros">Mobi Roxo 2017 Fiat</option>
+                <option value="carros">Ferrari 458 Italia, Black</option>
+                <option value="carros">Volkswagen Gol 1.6</option>
+                <option value="carros">Chevrolet Camaro Orange</option>
+                <option value="carros">Chevrolet Camaro Yellow</option>
+                <option value="carros">Ford Maverick Azul</option>
+                <option value="carros">Ford Maverick Verde</option>
+                <option value="carros">Volkswagen Brasilia 1976</option>
+                <option value="carros">Fișier:2009 Fiat 500 PINK</option>
+                <option value="carros">Volkswagen fusca 1200</option>
+                <option value="carros">Volkswagen Combi</option>
+            </select>
+
+        <div class="spacer"></div>
+
         <input type="number" name="pagamento" placeholder="Valor a ser pago" required>
-        <input type="number" name="pagamento" placeholder="Forma de pagagamento" required>
+
+        <div class="spacer"></div>
+
+        <label for="opcoes">Selecione uma forma de pagamento:</label>
+            <select id="opcoes" name="opcoes">
+                <option value="string">Parcelado cartão</option>
+                <option value="string">Parcelado boleto</option>
+                <option value="string">Cartão</option>
+                <option value="string">Dinheiro</option>
+                <option value="string">Pix</option>
+            </select>
+            <p class="clausulas">Será necessário seu comparecimento na loja de forma presencial para finalizar a compra e retirada do seu carro. Esperamos por você, venha já!</p>
+
+        <div class="spacer"></div>
+
         <button type="submit" class="enviar">Enviar</button>
         
         <div class="checkbox-container">
