@@ -190,11 +190,12 @@
         <input type="text" name="name" placeholder="Seu nome completo" required> 
         <input type="email" name="email" placeholder="Seu email completo" required> 
         <input type="telefone" name="telefone" placeholder="Seu telefone somente números - opcional"> 
+        <input type="telefone" name="pagamento" placeholder="Valor a ser pago" required>
 
         <div class="spacer"></div>
 
         <label for="opcoes">Selecione uma opção de carro:</label>
-            <select id="opcoes" name="opcoes">
+            <select id="opcoes" name="modelo">
                 <option value="carros">Ford Mustang</option>
                 <option value="carros">Mercede Benz Classe A</option>
                 <option value="carros">Lamborghini Aventador pink</option>
@@ -213,17 +214,13 @@
                 <option value="carros">Volkswagen Combi</option>
             </select>
 
-        <div class="spacer"></div>
-
-        <input type="number" name="pagamento" placeholder="Valor a ser pago" required>
-
-        <div class="spacer"></div>
+            <div class="spacer"></div>
 
         <label for="opcoes">Selecione uma forma de pagamento:</label>
-            <select id="opcoes" name="opcoes">
-                <option value="string">Parcelado cartão</option>
-                <option value="string">Parcelado boleto</option>
-                <option value="string">Cartão</option>
+            <select id="opcoes" name="forma">
+                <option value="Parcelado cartão">Parcelado cartão</option>
+                <option value="Parcelado boleto">Parcelado boleto</option>
+                <option value="Cartão">Cartão</option>
                 <option value="string">Dinheiro</option>
                 <option value="string">Pix</option>
             </select>
