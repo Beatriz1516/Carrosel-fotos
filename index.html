@@ -12,7 +12,26 @@
     <div class="cabeçalho">
         <h1 class="titulo">Conheça a nova versão de carros da DMotors</h1>
         <h3 class="subtitulo">A nova moda do momento!</h3>
+        <div class="spacer"></div>
         <h4 class="botao">20% de desconto Somente no mês de Julho.<br> Compre Já!</h4>
+        <header>
+        <nav class="navbar">
+           
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+           
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="htmls/reparo.html" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
 </div>
 <div class="spacer"></div>
 <section>
@@ -190,29 +209,32 @@
         <input type="text" name="name" placeholder="Seu nome completo" required> 
         <input type="email" name="email" placeholder="Seu email completo" required> 
         <input type="telefone" name="telefone" placeholder="Seu telefone somente números - opcional"> 
-        <input type="telefone" name="pagamento" placeholder="Valor a ser pago" required>
 
         <div class="spacer"></div>
 
         <label for="opcoes">Selecione uma opção de carro:</label>
             <select id="opcoes" name="modelo">
-                <option value="carros">Ford Mustang</option>
-                <option value="carros">Mercede Benz Classe A</option>
-                <option value="carros">Lamborghini Aventador pink</option>
-                <option value="carros">Chevrolet Tracker</option>
-                <option value="carros">Renault Kwid</option>
-                <option value="carros">Mobi Roxo 2017 Fiat</option>
-                <option value="carros">Ferrari 458 Italia, Black</option>
-                <option value="carros">Volkswagen Gol 1.6</option>
-                <option value="carros">Chevrolet Camaro Orange</option>
-                <option value="carros">Chevrolet Camaro Yellow</option>
-                <option value="carros">Ford Maverick Azul</option>
-                <option value="carros">Ford Maverick Verde</option>
-                <option value="carros">Volkswagen Brasilia 1976</option>
-                <option value="carros">Fișier:2009 Fiat 500 PINK</option>
-                <option value="carros">Volkswagen fusca 1200</option>
-                <option value="carros">Volkswagen Combi</option>
+                <option value="Ford Mustang">Ford Mustang</option>
+                <option value="Mercede Benz Classe A">Mercede Benz Classe A</option>
+                <option value="Lamborghini Aventador pink">Lamborghini Aventador pink</option>
+                <option value="Chevrolet Tracker">Chevrolet Tracker</option>
+                <option value="Renault Kwid">Renault Kwid</option>
+                <option value="Mobi Roxo 2017 Fiat">Mobi Roxo 2017 Fiat</option>
+                <option value="Ferrari 458 Italia, Black">Ferrari 458 Italia, Black</option>
+                <option value="Volkswagen Gol 1.6">Volkswagen Gol 1.6</option>
+                <option value="Chevrolet Camaro Orange">Chevrolet Camaro Orange</option>
+                <option value="Chevrolet Camaro Yellow">Chevrolet Camaro Yellow</option>
+                <option value="Ford Maverick Azul">Ford Maverick Azul</option>
+                <option value="Ford Maverick Verde">Ford Maverick Verde</option>
+                <option value="Volkswagen Brasilia 1976">Volkswagen Brasilia 1976</option>
+                <option value="Fișier:2009 Fiat 500 PINK">Fișier:2009 Fiat 500 PINK</option>
+                <option value="Volkswagen fusca 1200">Volkswagen fusca 1200</option>
+                <option value="Volkswagen Combi">Volkswagen Combi</option>
             </select>
+
+            <div class="spacer"></div>
+
+            <input type="string" name="pagamento" placeholder="Valor a ser pago" required>
 
             <div class="spacer"></div>
 
@@ -221,8 +243,8 @@
                 <option value="Parcelado cartão">Parcelado cartão</option>
                 <option value="Parcelado boleto">Parcelado boleto</option>
                 <option value="Cartão">Cartão</option>
-                <option value="string">Dinheiro</option>
-                <option value="string">Pix</option>
+                <option value="Dinheiro">Dinheiro</option>
+                <option value="Pix">Pix</option>
             </select>
             <p class="clausulas">Será necessário seu comparecimento na loja de forma presencial para finalizar a compra e retirada do seu carro. Esperamos por você, venha já!</p>
 
